@@ -12,4 +12,4 @@
 ## QUICKSTART:
   - see example_psiturk_sql2csv.py
 
-### psiturk_sql2csv.py is modded off the retreiving data programatically script found [here](http://psiturk.readthedocs.org/en/latest/retrieving.html)
+##### psiturk_sql2csv.py is modded off the retreiving data programatically script found [here in the psiturk docs](http://psiturk.readthedocs.org/en/latest/retrieving.html)
