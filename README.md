@@ -20,7 +20,7 @@ DB_URL = 'sqlite:///participants.db'
 TABLE_NAME = 'turkdemo'  # table name of data in the db
 
 # sql2csv makes 3 files: [CSV_HEADER]_trialdata.csv, [CSV_HEADER]_eventdata.csv, and [CSV_HEADER]_questiondata.csv
-CSV_HEADER = 'example'  
+CSV_HEADER = '/path/to/results/myResult'  
 
 psiturk_sql2csv.sql2csv(DB_URL, TABLE_NAME, CSV_HEADER)
 ```
