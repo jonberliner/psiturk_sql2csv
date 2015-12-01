@@ -10,7 +10,7 @@
   - **tags each row** of trialdata, questiondata, and eventdata csv files with **subject id information**, which should make analysis easier.
 
 ## QUICKSTART:
-```
+```python
 import psiturk_sql2csv
 
 # sql database location
