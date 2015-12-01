@@ -12,12 +12,17 @@
 ## QUICKSTART:
 ```
 import psiturk_sql2csv
-DB_URL = 'sqlite:///participants.db'  # sql database location
+
+# sql database location
+DB_URL = 'sqlite:///participants.db'  
+
+# table name of the data in the db
 TABLE_NAME = 'turkdemo'  # table name of data in the db
-# what you want to call the output.
+
 # sql2csv makes 3 files: [CSV_HEADER]_trialdata.csv, [CSV_HEADER]_eventdata.csv, and [CSV_HEADER]_questiondata.csv
 CSV_HEADER = 'example'  
 
 psiturk_sql2csv.sql2csv(DB_URL, TABLE_NAME, CSV_HEADER)
 ```
+
 ##### psiturk_sql2csv.py is modded off the retreiving data programatically script found [here in the psiturk docs](http://psiturk.readthedocs.org/en/latest/retrieving.html)
